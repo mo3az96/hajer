@@ -1,6 +1,6 @@
 $(document).ready(function () {
   sal({
-    once: false,
+    once: true,
   });
 
   if ($(window).width() <= 991) {
