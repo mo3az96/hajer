@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
 
-  <body data-bs-spy="scroll" data-bs-target="#fixedNavbar">
+  <body class="track-body">
     <!-- Start Header -->
     <header id="header">
       <div class="container">
@@ -38,7 +38,9 @@
                 <a class="nav-link" href="index.html#main"> الرئيسية </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index.html#tracking"> تتبع الشحنات </a>
+                <a class="nav-link active" href="index.html#tracking">
+                  تتبع الشحنات
+                </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="index.html#about"> من نحن </a>
@@ -62,6 +64,64 @@
       </div>
     </header>
     <!-- End Header -->
+
+    <!-- Start PageContent -->
+    <section class="pageContent">
+      <div class="container">
+        <h1 class="page-tite">تفاصيل الشحنة</h1>
+        <div class="existed-number">
+          <h6 class="page-subtitle">عرض لتفاصيل الشحنة التي أدخلت رقمها</h6>
+          <div class="pack-num">
+            <span class="title"> رقم الشحنة </span>
+            <strong class="number"> 895333500 </strong>
+          </div>
+          <div class="pack-details-grid">
+            <div class="pack-details-item">
+              <span class="title"> الشركة </span>
+              <span class="value"> شركة لوجيستيكس </span>
+            </div>
+            <div class="pack-details-item">
+              <span class="title"> تاريخ الشحنة </span>
+              <span class="value numeric"> 18 / 09 /2022 </span>
+            </div>
+            <div class="pack-details-item">
+              <span class="title"> نوع الشحنة </span>
+              <span class="value"> شحنة برية </span>
+            </div>
+            <div class="pack-details-item">
+              <span class="title"> الشحنة من </span>
+              <span class="value"> الميناء البري (الأردن) </span>
+            </div>
+            <div class="pack-details-item">
+              <span class="title"> الشحنة إلى </span>
+              <span class="value"> الميناء البري (الرياض) </span>
+            </div>
+            <div class="pack-details-item">
+              <span class="title"> حالة الشحنة </span>
+              <span class="value"> الشحنة خرجت من الأردن </span>
+            </div>
+            <div class="pack-details-item">
+              <span class="title"> المندوب </span>
+              <span class="value"> اسم المندوب </span>
+            </div>
+            <div class="pack-details-item">
+              <span class="title"> رقم المندوب </span>
+              <span class="value numeric"> 965 8880 6508 </span>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="empty-number">
+          <div class="empty-ico">
+            <img src="images/empty.svg" class="img-fluid" />
+          </div>
+          <h6 class="page-subtitle">لا يوجد تفاصيل للشحنة التي أدخلت رقمها</h6>
+          <a href="index.html#tracking" class="repeat-tracking">
+            إدخال الرقم مرة أخرى
+          </a>
+        </div> -->
+      </div>
+    </section>
+    <!-- End PageContent -->
 
     <!-- Start Footer -->
     <footer id="footer">
